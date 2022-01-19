@@ -32,7 +32,7 @@ export default function SigninScreen(props) {
     <div>
       <form className="form" onSubmit={submitHandler}>
         <div>
-          <h1>כניסה לאתר</h1>
+          <h1>כגגגגגיסה לאתר</h1>
         </div>
         {loading && <LoadingBox></LoadingBox>}
         {error && <MessageBox variant="danger">{'הכתובת מייל לא תואמת או הסיסמא'}</MessageBox>}
